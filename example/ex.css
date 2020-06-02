@@ -1,0 +1,21 @@
+#d3ease{
+	color:steelblue;
+    position: absolute;
+    left:60px;
+    top: 230; /*apparently + values dont work here*/
+}
+#inputval{
+	position:absolute;
+	color:black;
+	top:25;
+}
+#type{
+	position: absolute;
+	top:10;
+	left:100;
+}
+#d3click{
+	position: absolute;
+	top:158;
+	left:100;
+}

@@ -1,0 +1,39 @@
+<html> 
+  <head>
+      <meta charset="utf-8">
+      <title>June 2nd Presentation</title>
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+      <script src="https://d3js.org/d3-color.v1.min.js"></script>
+      <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+
+      <label id="typeClick" for="cars">Select Type:</label>
+
+    <select onchange="changeName()" name="cars" id="type">
+      <option  value="Date">Date</option>
+      <option value="Color">Color</option>
+      <option value="Number">Number</option>
+      <option value="Number Array">Number Array</option>
+    </select>
+
+    <br>
+    <p id="inputval">      
+      <label id="labelID1" for="fDate">First Date:</label>
+      <input type="text" id="fDate" name="fDate">
+      <br><br>
+      <label id="labelID2"for="sDate">Second Date:</label>
+      <input type="text" id="sDate" name="sDate"><br><br>
+      <label for="enter">Interpolated Value</label>
+      <input type="text" id="enter" name="enter"><br><br>
+      <input type="submit" value="Calculate" onclick="calculate()" >
+  </head>
+</p>
+  </head>
+  <input id="d3click"type="button" value="d3.ease" onclick="show()">
+  <body> 
+    <h1 id="d3ease"><bold> d3.ease </bold></h1>
+      <script type="text/javascript" src="ex.js"></script>
+      <link rel="stylesheet" type="text/css" href="ex.css">
+      <div id="resource">
+  </body>
+</html>
+
